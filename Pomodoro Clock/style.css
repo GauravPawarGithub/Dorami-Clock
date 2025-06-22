@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background: linear-gradient(45deg, rgb(16, 16, 16), rgb(171, 165, 165));
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 5px solid black;
+}
+.timer{
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    background-color: rgb(18, 17, 17);
+    letter-spacing: 4.5px;
+}
+.title{
+   font-size: 25px;
+   font-weight: 600;
+   padding: 10px;
+    margin-bottom: 20px;
+    color: whitesmoke;
+}
+button{
+    padding: 20px;
+    margin: 5px;   
+    font-size: 25px;
+    font-weight: 700; 
+    cursor: pointer;
+    color: whitesmoke;
+}
+.startbtn{
+    background-color: rgb(31, 217, 28);
+}
+.pausebtn{
+    background-color: red;
+}
+.resumebtn{
+    background-color: rgb(62, 125, 219);
+}
+.resetbtn{
+    background-color: orange;
+}
+
+.pomoCountsDisplay{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.count{
+    margin: 5px;
+    font-size: 30px;
+    color: white;
+}
+p{
+    font-size: 25px;
+    color: yellow;
+}
